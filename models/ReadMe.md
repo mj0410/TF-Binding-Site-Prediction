@@ -1,4 +1,15 @@
+### Neural Network
+
+<img src="./IMAGE/NeuralNetwork.png" width="700"><br/>
+
+- Machine learning algorithm inspired by the neural architecture of the human brain
+- Consists of a basic building block called a neuron; neurons take input and produce output using a mathematical function called activation function
+- 1 input layer, 1 or more hidden layers, and 1 output layer
+
 ### Convolutional Neural Network (CNN)
+
+<img src="./IMAGE/CNN.png" width="700"><br/>
+
 - Multilayered neural network designed to handle data in the form of multiple arrays, for example, sequence data in 1D array and images in 2D arrays 
 - The hidden layers consist of convolutional layers, pooling layers, and fully connected layers
 
