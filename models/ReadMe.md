@@ -12,13 +12,19 @@
 <br/>
 <img src="https://github.com/mj0410/TFBS-Prediction/blob/main/IMAGE/CNN.png" width="400"><br/>
 
-- Multilayered neural network designed to handle data in the form of multiple arrays, for example, sequence data in 1D array and images in 2D arrays 
+- Multilayered neural network designed to handle data in the form of multiple arrays, for example, sequence data in 1D array and images in 2D arrays
+- zero padding : pad 0 to provide information where are the edges -> done before enter to the convolutional layer
 - The hidden layers consist of convolutional layers, pooling layers, and fully connected layers
 
     `Convolutional layer` 
     > Convolutional filter slides the input and extracts features from the input <br/>
     > The size of the filter is defined by the user <br/>
-    > Feature extraction is performed by dot product of filter and input <br/>
+    > Filter detects whether the image has interested features or not <br/>
+    > Stride : how many pixels filter will move at once <br/>
+    > Feature extraction is performed by dot product of filter weight and input <br/>
+    > e.g) 32x32 input image, 6 5x5 filters -> 6 28x28 feature maps <br/>
+    > Depth : number of filter <br/>
+    > filter -> feature map -> activation function -> activation map (output)
     
     `Pooling layer`
     > Reduces the output size of the convolutional layer <br/>
